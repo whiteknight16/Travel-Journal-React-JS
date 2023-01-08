@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: poppins,sans-serif;
+}
+/* Header */
+
+.header{
+    height:2rem;
+    background-color: #f55a5a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header--text{
+    align-items: center;
+    justify-content: center;
+
+    color: aliceblue;
+
+    font-stretch: condensed;
+
+}
+
+
+/* cards */
+
+.card{
+    display: flex;
+    flex-flow: row;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    gap: 10%;
+}
+.card--image{
+    width: 20%;
+    aspect-ratio: 9/14;
+    border-radius: 10px;
+}
+
+.card--content{
+    padding-top: 7%;
+}
+
+.card h3{
+    display: inline;
+    font-family: inter;
+    padding-right: 3%;
+}
+
+.card a{
+    color: gray;
+}
+
+.card h1{
+    padding-bottom: 1%;
+}
+
+.card p{
+    width: 70%;
+}
